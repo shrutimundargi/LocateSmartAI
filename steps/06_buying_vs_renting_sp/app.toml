@@ -1,0 +1,17 @@
+snowsql_config_path = "~/.snowsql/config"
+snowsql_connection_name = "dev"
+
+[default]
+input_parameters = "(input_geo_id string)"
+return_type = "string"
+file = "app.zip"
+name = "buying_vs_renting_udf"
+handler = "app.main"
+execute_as_caller = true
+
+[dev]
+database = "BIG_DB"
+schema = "ANALYTICS"
+warehouse = "BIG_WH"
+role = "BIG_ROLE"
+overwrite = true

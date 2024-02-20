@@ -1,0 +1,17 @@
+snowsql_config_path = "~/.snowsql/config"
+snowsql_connection_name = "dev"
+
+[default]
+input_parameters = "(geo_name string, city string, year string)"
+return_type = "array"
+file = "app.zip"
+name = "crime_to_unemployment_udf"
+handler = "app.main"
+execute_as_caller = true
+
+[dev]
+database = "BIG_DB"
+schema = "ANALYTICS"
+warehouse = "BIG_WH"
+role = "BIG_ROLE"
+overwrite = true
