@@ -20,7 +20,7 @@ Quality of Life: Analyzing factors such as school availability, healthcare facil
 <img width="690" alt="Screenshot 2024-02-20 at 2 36 20 PM" src="https://github.com/shrutimundargi/LocateSmartAI/assets/48567754/37efe625-f0d6-47be-8cca-b4993aac89ec">
 
 
-## Snowflake Dataset
+## Snowflake Marketplace Dataset
 
 <img width="601" alt="Screenshot 2024-02-20 at 2 38 58 PM" src="https://github.com/shrutimundargi/LocateSmartAI/assets/48567754/4ce6e001-f8d7-440c-8305-9493afd94761">
 
@@ -44,7 +44,7 @@ Cybersyn's Crime Statistics includes police department crime data from New York,
 ￼
 This product serves as a master points of interest (POI), address, and geographic reference dataset. The points of interest data contains the name, location, and category of 11M points of interest ranging from restaurants and commercial brands to hospitals and parks, The address data includes 145M US residential and commercial addresses covering the United States and Puerto Rico. The geographic data contains Cybersyn's standardized geographic entities (e.g. cities, counties), relationships between these geographies (e.g. cities contained within counties) and the characteristics of these geographies (e.g. geospatial boundaries, coordinates, abbreviations).
 
-## Our Dataset
+## Our Custom Dataset
 
 Since we used 4 datasets and a huge amount of tables in total we have created views that acts as our table based on which we proceeded to create the SQL processes, User-defined function, and stored procedure.
 ￼
