@@ -13,6 +13,11 @@ Real Estate Prices: Assessing housing affordability to facilitate financial plan
 
 Quality of Life: Analyzing factors such as school availability, healthcare facilities, dining options, and employment trends to gauge overall quality of life.
 
+## Walkthrough Model
+
+<img width="690" alt="Screenshot 2024-02-20 at 2 36 20 PM" src="https://github.com/shrutimundargi/LocateSmartAI/assets/48567754/37efe625-f0d6-47be-8cca-b4993aac89ec">
+
+
 ## Snowflake Dataset
 
 <img width="601" alt="Screenshot 2024-02-20 at 2 38 58 PM" src="https://github.com/shrutimundargi/LocateSmartAI/assets/48567754/4ce6e001-f8d7-440c-8305-9493afd94761">
@@ -82,7 +87,38 @@ Function to get a ratio between crime rates and unemployment rates to find any c
 3. LIFE_QUALITY_INDEX:
 Function to calculate the quality of life index based on the total number of services and facilities, job opening, opportunities available in that area.
 
-## Walkthrough Model
+## LangChain and SnowPark
 
-<img width="690" alt="Screenshot 2024-02-20 at 2 36 20 PM" src="https://github.com/shrutimundargi/LocateSmartAI/assets/48567754/37efe625-f0d6-47be-8cca-b4993aac89ec">
+We have created a sophisticated process of integrating language models, database operations, and data analysis. Here's a breakdown of how it was executed:
 
+1. Installation and Imports:
+* Packages like langchain, langchain-experimental, openai, snowflake-connector-python, and pandas are installed.
+* Necessary modules from these packages are imported for later use.
+  
+2. Snowflake Database Connection:
+* A connection to a Snowflake database is established using predefined parameters (conn_params).
+* Several SQL queries are executed against this database, fetching data from different views (e.g., BLS_EMPLOYMENT_V, CPI_RENT_VIEW, etc.).
+* The fetched data is stored into pandas DataFrames (df1, df2, etc.).
+  
+3. SQLite Database Setup:
+* A local SQLite database (harmonize.db) is created.
+* The DataFrames obtained from Snowflake are saved into this SQLite database as different tables.
+  
+4. LangChain and OpenAI Setup:
+* An instance of OpenAI from langchain.llms is created with specified parameters, including the API key.
+* The SQLite database is connected using SQLDatabase.from_uri.
+  
+5. SQLDatabaseChain Initialization:
+* A SQLDatabaseChain is instantiated, linking the language model (llm) with the SQLite database (db).
+  
+6. Executing SQL Queries Through Language Models:
+* Different cases (Case 1, Case 2, and Case 3) show how to use the SQLDatabaseChain and language models to perform data queries and analyses.
+* Case 1 and Case 2 demonstrate direct queries and fetching of results (like the number of job openings or GEO_IDs).
+* Case 3 illustrates a more complex query, combining data from multiple tables to provide insights, such as calculating the average unemployment rate for each geographic location in 2017.
+  
+7. Agent Executor:
+* An agent_executor is created using create_sql_agent, integrating the language model (llm_with_key) and the SQL database (db).
+* This executor is then used to run complex queries, demonstrating the capacity of the system to handle multifaceted data inquiries and analyses.
+
+
+In summary, this code demonstrates a comprehensive approach to data handling, blending advanced language model interactions with database operations to extract, analyze, and interpret complex data sets.
