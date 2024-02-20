@@ -18,10 +18,4 @@ The system will aggregate data from diverse, authoritative sources to ensure a c
 Gathering up-to-date, reliable data on financial indicators, real estate prices, points of interest, and crime rates.
 Implementing a robust algorithm to process and analyze this data, providing clear assessments of potential relocation areas.
 
-## User Experience and Interface
-Designing the platform with a focus on user-friendliness to ensure easy navigation and understanding for all users.
-Incorporating interactive elements and visual aids, such as maps and charts, to enhance engagement and comprehension.
 
-## Outcome and Decision Support
-Prioritizing potential locations based on user-defined criteria importance.
-Empowering users to make informed decisions by selecting the most suitable relocation destination.
