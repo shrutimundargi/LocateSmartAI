@@ -89,7 +89,7 @@ Function to get a ratio between crime rates and unemployment rates to find any c
 3. LIFE_QUALITY_INDEX:
 Function to calculate the quality of life index based on the total number of services and facilities, job opening, opportunities available in that area.
 
-## LangChain and SnowPark
+## LangChain and Snowpark
 
 We have created a sophisticated process of integrating language models, database operations, and data analysis. Here's a breakdown of how it was executed:
 
