@@ -1,6 +1,8 @@
 # LocateSmartAI
 Relocation Decision Support System
 
+<img width="553" alt="Screenshot 2024-02-20 at 2 34 20 PM" src="https://github.com/shrutimundargi/LocateSmartAI/assets/48567754/8b52fa59-f52d-43ed-b428-0e722342656a">
+
 ## Objective
 The primary aim of this project is to develop an advanced, intuitive solution to assist individuals and families in identifying optimal relocation destinations. This decision-support system will empower users to make well-informed choices by analyzing key factors that influence relocation decisions.
 
