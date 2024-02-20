@@ -2,6 +2,7 @@
 Relocation Decision Support System
 
 Demo - https://www.youtube.com/watch?v=aejwBV7ii6c
+
 <img width="553" alt="Screenshot 2024-02-20 at 2 34 20 PM" src="https://github.com/shrutimundargi/LocateSmartAI/assets/48567754/8b52fa59-f52d-43ed-b428-0e722342656a">
 
 ## Objective
