@@ -6,7 +6,9 @@ The primary aim of this project is to develop an advanced, intuitive solution to
 
 ## Key Factors for Analysis
 Crime and Unemployment Rate: Evaluating local job market stability and safety levels to ensure economic security and personal well-being.
+
 Real Estate Prices: Assessing housing affordability to facilitate financial planning and determine cost of living in potential relocation areas.
+
 Quality of Life: Analyzing factors such as school availability, healthcare facilities, dining options, and employment trends to gauge overall quality of life.
 
 ## Data Aggregation and Analysis
