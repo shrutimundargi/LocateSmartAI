@@ -65,13 +65,13 @@ Information about the total number of schools, healthcare, cafes in a particular
 
 1. CRIME_UNEMPLOYMENT_RATIO:
 Finding the crime-to-unemployment ratio of an area to understand the safety of the area, using tables URBAN_CRIME_STATISTICS and BLS_EMPLOYMENT_V
-￼
+
 2. EMPLOYMENT_POI_ANALYSIS:
 Finding the average employment information and the average of schools, hospitals, food places etc. using tables US_POI_VIEW and BLS_EMPLOYMENT_V
-￼
+
 3. HOME_PURCHASE_DATA:
 Finding the average of how expensive it would be to live in a location based on average rent and average property value in that area, using tables CPI_RENT_VIEW, HOME_MORTGAGE_VIEW and GEO_VIEW.
-￼
+
 ### User Defined Functions:
 1. BUYING_VS_RENTING:
 Function to find if smart to buy or rent a house or a property in a particular area.
